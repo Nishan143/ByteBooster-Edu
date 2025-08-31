@@ -4078,7 +4078,8 @@ height: 80px;
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #2878EB;
+  /* background-color: #2878EB; */
+  background-color: #FFFFFF;
 }
 
 .nav-fill > .nav-link,
@@ -9964,4 +9965,19 @@ h6,
 .team-item img{
   width: 300px;
   height:400px;
+}
+.cours_img{
+  width: 800px;
+  height: 400px;
+}
+.card_title_part{
+    color: #222222;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.card_title_part i{
+    margin-right: 5px;   
 }
