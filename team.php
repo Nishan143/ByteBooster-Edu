@@ -72,20 +72,20 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                 <div class="navbar-nav mx-auto py-0">
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="course.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="detail.html" class="dropdown-item">Course Detail</a>
-                            <a href="feature.html" class="dropdown-item">Our Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="detail.php" class="dropdown-item">Course Detail</a>
+                            <a href="feature.php" class="dropdown-item">Our Features</a>
+                            <a href="team.php" class="dropdown-item">Instructors</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>
@@ -99,13 +99,13 @@
         <div class="container text-center my-5 py-5">
             <!-- <h1 class="text-white mt-4 mb-4">IT</h1> -->
             <h1 class="text-white display-1 mb-5">SkillBooster</h1>
-            <h1 class="text-white display-1 mb-5">Testimonial</h1>
+            <h1 class="text-white display-1 mb-5">Team</h1>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
                 <div class="input-group">
                     <!-- <div class="input-group-prepend">
                         <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</button>
-                        <div class="dropdown-menu">
+                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Courses 1</a>
                             <a class="dropdown-item" href="#">Courses 2</a>
                             <a class="dropdown-item" href="#">Courses 3</a>
@@ -122,56 +122,107 @@
     </div>
     <!-- Header End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-image py-5" style="margin: 90px 0;">
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
         <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Testimonial</h6>
-                        <h1 class="display-4">What Say Our Students</h1>
-                    </div>
-                    <p class="m-0">The students have shown strong skills in planning, organizing, and managing tasks
-                        effectively. They work well in teams, meet deadlines responsibly, and show a clear understanding
-                        of project management principles. Their ability to adapt, solve problems, and communicate ideas
-                        makes them well-prepared for real-world projects.</p>
-                </div>
-                <div class="col-lg-7">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="bg-white p-5">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>The course provides a solid foundation in HTML, CSS, JavaScript, and modern frameworks.
-                                It focuses on practical skills, hands-on projects, and real-world applications, making
-                                it very effective for beginners and career starters.</p>
-                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="img/shuhi.jpeg" alt="">
-                                <div>
-                                    <h5>Shuhida Saad Sultana Shubho</h5>
-                                    <span>Frontend Development</span>
-                                </div>
-                            </div>
+            <div class="section-title text-center position-relative mb-5">
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Instructors</h6>
+                <h1 class="display-4">Meet Our Instructors</h1>
+            </div>
+            <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/nishan (1).jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Aktaruzzaman Nishan</h5>
+                        <p class="mb-2">Frontend Developer & Trainer</p>
+                        <div class="d-flex justify-content-center">
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="https://www.facebook.com/share/16Z2Yk5zQi/"><i
+                                    class="fab fa-facebook-f"></i></a> -->
+                            <a class="mx-1 p-1"
+                                href="https://www.linkedin.com/in/aktaruzzaman-cse?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a> -->
                         </div>
-                        <div class="bg-white p-5">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>The students have shown strong skills in planning, organizing, and managing tasks
-                                effectively. They work well in teams, meet deadlines responsibly, and show a clear
-                                understanding of project management principles. Their ability to adapt, solve problems,
-                                and communicate ideas makes them well-prepared for real-world projects.</p>
-                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="img/mahi.jpeg" alt="">
-                                <div>
-                                    <h5>Mehe jabin Mahi</h5>
-                                    <span>Project Management</span>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid  w-100" src="img/momin (2).jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Md Maminuzzaman Momin</h5>
+                        <p class="mb-2">Digital Marketing Trainer</p>
+                        <div class="d-flex justify-content-center">
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/hasib.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Hasib Md. Hasibuzzaman</h5>
+                        <p class="mb-2">Head Of Training & Development</p>
+                        <div class="d-flex justify-content-center">
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">M.M.Khalil Ullah</h5>
+                        <p class="mb-2">Senior Counselor & Coordinator</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/prithibi.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Prithibi Biswas</h5>
+                        <p class="mb-2">AI Trainer </p>
+                        <div class="d-flex justify-content-center">
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/Asif.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Asaduzzaman Asif</h5>
+                        <p class="mb-2">Graphic Design Trainer </p>
+                        <div class="d-flex justify-content-center">
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="mx-1 p-1"
+                                href="https://www.linkedin.com/in/asaduzzaman-asif-352a821a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial end -->
+    <!-- Team End -->
 
 
     <!-- Footer Start -->

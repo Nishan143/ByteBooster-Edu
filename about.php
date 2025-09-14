@@ -72,20 +72,20 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                 <div class="navbar-nav mx-auto py-0">
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="course.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="detail.html" class="dropdown-item">Course Detail</a>
-                            <a href="feature.html" class="dropdown-item">Our Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="detail.php" class="dropdown-item">Course Detail</a>
+                            <a href="feature.php" class="dropdown-item">Our Features</a>
+                            <a href="team.php" class="dropdown-item">Instructors</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>
@@ -99,13 +99,13 @@
         <div class="container text-center my-5 py-5">
             <!-- <h1 class="text-white mt-4 mb-4">IT</h1> -->
             <h1 class="text-white display-1 mb-5">SkillBooster</h1>
-            <h1 class="text-white display-1 mb-5">Registration From</h1>
+            <h1 class="text-white display-1 mb-5">About</h1>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
                 <div class="input-group">
                     <!-- <div class="input-group-prepend">
                         <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</button>
-                        <div class="dropdown-menu">
+                       <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Courses 1</a>
                             <a class="dropdown-item" href="#">Courses 2</a>
                             <a class="dropdown-item" href="#">Courses 3</a>
@@ -121,81 +121,130 @@
         </div>
     </div>
     <!-- Header End -->
-    <div class="row">
-        <div class="col-md-12 ">
-            <form method="" action="">
-                <div class="card mb-3">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-6 col-md-4  card_title_part">
-                                <i class="fab fa-gg-circle text-center"></i>students Registration
-                            </div>
-                            <!-- <div class="col-md-4 card_button_part">
-                <a href="all-user.html" class="btn btn-sm btn-dark"><i class="fas fa-th"></i>All User</a>
-              </div>   -->
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row mb-3">
-                            <label class="col-sm-3 col-form-label col_form_label">Name<span
-                                    class="req_star">*</span>:</label>
-                            <div class="col-sm-7">
-                                <input type="text" class="form-control form_control" id="" name="">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-3 col-form-label col_form_label">Phone<span
-                                    class="req_star">*</span>:</label>
-                            <div class="col-sm-7">
-                                <input type="text" class="form-control form_control" id="" name="">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-3 col-form-label col_form_label">Email<span
-                                    class="req_star">*</span>:</label>
-                            <div class="col-sm-7">
-                                <input type="email" class="form-control form_control" id="" name="">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-3 col-form-label col_form_label">Address<span
-                                    class="req_star">*</span>:</label>
-                            <div class="col-sm-7">
-                                <input type="text" class="form-control form_control" id="" name="">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-3 col-form-label col_form_label">Courses<span
-                                    class="req_star">*</span>:</label>
-                            <div class="col-sm-4">
-                                <select class="form-control form_control" id="" name="">
-                                    <option>Select Course</option>
-                                    <option value="">Frontend Development</option>
-                                    <option value="">Digital Marketing</option>
-                                    <option value="">Project Management</option>
-                                    <option value="">UI/UX Design</option>
-                                    <option value="">Content Creation</option>
-                                </select>
-                            </div>
-                        </div>
-                        <!-- <div class="row mb-3">
-              <label class="col-sm-3 col-form-label col_form_label">Photo:</label>
-              <div class="col-sm-4">
-                <input type="file" class="form-control form_control" id="" name="">
-              </div>
-            </div> -->
-                    </div>
-                    <div class="card-footer text-center">
-                        <button type="submit" class="btn btn-sm btn-dark">REGISTRATION</button>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/pexels-mikael-blomkvist-6476808.jpg"
+                            style="object-fit: cover;">
                     </div>
                 </div>
-            </form>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
+                        <h1 class="display-4">SkillBooster</h1>
+                    </div>
+                    <p>We are more than an academy — we are a bridge between learning and opportunity. We are committed
+                        to equipping learners with the knowledge and confidence to thrive in the digital era. Our
+                        mission is to shape raw talent into global professionals ready to take on tomorrow’s challenges.
+                        Think of us as a workshop where ideas are forged into skills and ambitions are shaped into
+                        careers. With expert guidance, international recognition, and hands-on training, we turn
+                        ambition into achievement. Wherever your journey begins, it can lead to success with us.
+                    </p>
+                    <div class="row pt-3 mx-0">
+                        <!-- <div class="col-3 px-0">
+                            <div class="bg-success text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1</h1>
+                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+                            </div>
+                        </div> -->
+                        <div class="col-3 px-0">
+                            <div class="bg-primary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">5</h1>
+                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-secondary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">10</h1>
+                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-warning text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- About End -->
+
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-image" style="margin: 90px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?
+                        </h6>
+                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
+                    </div>
+                    <p class="mb-4 pb-2">
+                        Your professional journey deserves the right foundation, and that begins with the right training
+                        environment. With us, you gain practical knowledge, guided learning, and the confidence to apply
+                        your skills in real scenarios. Our programs are carefully designed to prepare you for
+                        opportunities that reach far beyond local boundaries, ensuring you can grow and compete on a
+                        global stage.
+                    </p>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Skilled Instructors</h4>
+                            <p>We believe real growth comes from real expertise. Our trainers are seasoned professionals
+                                with international experience, bringing insights that blend both knowledge and practice.
+                                Their mentorship goes beyond classrooms — they share strategies, guidance, and
+                                real-world approaches that help you develop abilities employers truly value.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-secondary mr-4">
+                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>International Certificate</h4>
+                            <p>When you complete your training, you will receive a globally trusted certificate that
+                                strengthens your profile. It serves as recognition of your dedication and competence,
+                                giving you credibility wherever your career takes you. More than just a document, it is
+                                a mark of trust and opportunity in international markets.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="btn-icon bg-warning mr-4">
+                            <i class="fa fa-2x fa-book-reader text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Live Classes</h4>
+                            <p class="m-0">We make learning engaging, interactive, and impactful. Our live sessions
+                                allow you to connect directly with instructors, ask questions, and receive immediate
+                                feedback. This approach builds confidence and replicates the dynamics of working with
+                                professional teams, while giving you the flexibility to balance your learning with your
+                                personal schedule.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/learn.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    </section>
+    <!-- Feature end-->
+
+
     <!-- Footer Start -->
     <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
         <div class="container mt-5 pt-5">
@@ -250,7 +299,7 @@
                             Marketing</a>
                         <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Content
                             Creation</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>UI/UX Design</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>UI UX Design</a>
                         <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Project Management</a>
                     </div>
                 </div>

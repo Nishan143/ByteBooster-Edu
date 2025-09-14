@@ -72,20 +72,20 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                 <div class="navbar-nav mx-auto py-0">
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="course.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="detail.html" class="dropdown-item">Course Detail</a>
-                            <a href="feature.html" class="dropdown-item">Our Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="detail.php" class="dropdown-item">Course Detail</a>
+                            <a href="feature.php" class="dropdown-item">Our Features</a>
+                            <a href="team.php" class="dropdown-item">Instructors</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>
@@ -136,7 +136,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
                         <img class="img-fluid" src="img/courses-2.jpg" alt="">
                         <div class="courses-text">
                             <h4 class="text-center text-white px-3">Frontend Development</h4>
@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
                         <img class="img-fluid" src="img/courses-3.jpg" alt="">
                         <div class="courses-text">
                             <h4 class="text-center text-white px-3">Digital Marketing</h4>
@@ -176,7 +176,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
                         <img class="img-fluid" src="img/courses-4.jpg" alt="">
                         <div class="courses-text">
                             <h4 class="text-center text-white px-3">Project Management</h4>
@@ -196,7 +196,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
                         <img class="img-fluid" src="img/courses-5.jpg" alt="">
                         <div class="courses-text">
                             <h4 class="text-center text-white px-3">UI/UX Design</h4>
@@ -215,7 +215,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
                         <img class="img-fluid" src="img/courses-6.jpg" alt="">
                         <div class="courses-text">
                             <h4 class="text-center text-white px-3">Content Creation</h4>
