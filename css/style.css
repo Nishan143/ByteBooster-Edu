@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color:#03B4A5;
+  color:#000;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #ffff;
+  color: #03B4A5;
   text-decoration: underline;
 }
 
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #03B4A5;
+  color: #000;
 }
 
 h1, .h1 {
@@ -9846,7 +9846,13 @@ h6,
   background: linear-gradient(rgba(40, 120, 235, 0.05), rgba(40, 120, 235, 0.05)), url(../img/bg-image.jpg);
   background-attachment: fixed;
 }
-
+/* .section-title{
+  margin: 30px;
+} */
+.detail{
+  margin-left: 50px;
+  color: #000;
+}
 .section-title h6::before {
   position: absolute;
   content: "";
@@ -9855,6 +9861,10 @@ h6,
   bottom: 0;
   left: 0;
   border-top: 2px dashed #F14D5D;
+}
+.course-feature{
+ padding-right: 50px;
+ padding-top: 70px;
 }
 
 .courses-item img {
@@ -9977,7 +9987,7 @@ h6,
   height:450px; 
 }
 .cours_img{
-  width: 800px;
+  width: 700px;
   height: 400px;
 }
 .card_title_part{
