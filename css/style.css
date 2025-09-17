@@ -7859,6 +7859,7 @@ button.bg-dark:focus {
 
 .p-5 {
   padding: 3rem !important;
+  height: 500px;
 }
 
 .pt-5,
@@ -7869,6 +7870,7 @@ button.bg-dark:focus {
 .pr-5,
 .px-5 {
   padding-right: 3rem !important;
+  padding: 30px !important;
 }
 
 .pb-5,
@@ -10000,4 +10002,7 @@ h6,
 
 .card_title_part i{
     margin-right: 5px;   
+}
+.contact{
+  padding: 30px;
 }
