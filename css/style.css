@@ -9852,7 +9852,7 @@ h6,
   margin: 30px;
 } */
 .detail{
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: #000;
 }
 .section-title h6::before {
@@ -9865,7 +9865,7 @@ h6,
   border-top: 2px dashed #F14D5D;
 }
 .course-feature{
- padding-right: 50px;
+ /* padding-right: 50px; */
  padding-top: 70px;
 }
 
@@ -10004,5 +10004,5 @@ h6,
     margin-right: 5px;   
 } 
 .mt-n1 a{
-font-size: 14px;
+font-size:13px;
 }
