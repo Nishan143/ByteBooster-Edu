@@ -4127,7 +4127,10 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
+/* .navbar-brand img{
+  width: 180px;
+  height: 100px;
+} */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
