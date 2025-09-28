@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>SkillBooster</title>
+    <link rel="shortcut icon" href="img/5.png" type="image/x-icon">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -18,6 +19,7 @@
         rel="stylesheet">
 
     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -44,7 +46,7 @@
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a class="text-white px-2" href="">
-                        <i class="fab fa-twitter"></i>
+                       <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     <a class="text-white px-2" href="">
                         <i class="fab fa-linkedin-in"></i>
@@ -87,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="add-user.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">🎓 Admission Going On </a>
+                <a href="add-user.html" class="btn btn-primary py-2 px-4 d-none d-lg-block"> Apply for a course </a>
             </div>
         </nav>
     </div>
@@ -120,137 +122,61 @@
         </div>
     </div>
     <!-- Header End -->
+ <style>
+/* Hover shadow and scale effect */
+.stats-card {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+    /* transition: 0.5s ease;
+    cursor: pointer; */
+   margin: 20px;
+   border-radius: 20px;
+}
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/pexels-mikael-blomkvist-6476808.jpg"
-                            style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
-                        <h1 class="display-4">SkillBooster</h1>
-                    </div>
-                    <p>We are more than an academy — we are a bridge between learning and opportunity. We are committed
-                        to equipping learners with the knowledge and confidence to thrive in the digital era. Our
-                        mission is to shape raw talent into global professionals ready to take on tomorrow’s challenges.
-                        Think of us as a workshop where ideas are forged into skills and ambitions are shaped into
-                        careers. With expert guidance, international recognition, and hands-on training, we turn
-                        ambition into achievement. Wherever your journey begins, it can lead to success with us.
-                    </p>
-                    <div class="row pt-3 mx-0">
-                        <!-- Available Subjects -->
-                        <!-- <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
-                            <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">5</h1>
-                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span>
-                                </h6>
-                            </div>
-                        </div> -->
-                        <!-- Online Courses -->
-                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
-                            <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">5</h1>
-                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
-                            </div>
-                        </div>
-                        <!-- Skilled Instructors -->
-                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
-                            <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">10</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span>
-                                </h6>
-                            </div>
-                        </div>
-                        <!-- Happy Students -->
-                        <div class="col-12 col-md-3 px-0">
-                            <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
-                            </div>
-                        </div>
-                    </div>
+.stats-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
+    /* transform: scale(1.1); */
+}
 
-                </div>
-            </div>
+/* Counter animation (optional) */
+@keyframes counterUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.stats-card h1 {
+    animation: counterUp 1s ease forwards;
+}
+</style>
+
+<div class="row pt-3 mx-0">
+    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+        <div class="bg-success text-center p-4 stats-card">
+            <h1 class="text-white" data-toggle="counter-up">2000</h1>
+            <h6 class="text-uppercase text-white">JOb<span class="d-block">Placement</span></h6>
+        </div>
+    </div> 
+    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+        <div class="bg-primary text-center p-4 stats-card">
+            <h1 class="text-white" data-toggle="counter-up">10</h1>
+            <h6 class="text-uppercase text-white">Our<span class="d-block">Courses</span></h6>
         </div>
     </div>
-    <!-- About End -->
-
-
-
-    <!-- Feature Start -->
-    <div class="container-fluid bg-image" style="margin: 90px 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?
-                        </h6>
-                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
-                    </div>
-                    <p class="mb-4 pb-2">
-                        Your professional journey deserves the right foundation, and that begins with the right training
-                        environment. With us, you gain practical knowledge, guided learning, and the confidence to apply
-                        your skills in real scenarios. Our programs are carefully designed to prepare you for
-                        opportunities that reach far beyond local boundaries, ensuring you can grow and compete on a
-                        global stage.
-                    </p>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-primary mr-4">
-                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Skilled Instructors</h4>
-                            <p>We believe real growth comes from real expertise. Our trainers are seasoned professionals
-                                with international experience, bringing insights that blend both knowledge and practice.
-                                Their mentorship goes beyond classrooms — they share strategies, guidance, and
-                                real-world approaches that help you develop abilities employers truly value.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>International Certificate</h4>
-                            <p>When you complete your training, you will receive a globally trusted certificate that
-                                strengthens your profile. It serves as recognition of your dedication and competence,
-                                giving you credibility wherever your career takes you. More than just a document, it is
-                                a mark of trust and opportunity in international markets.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
-                            <i class="fa fa-2x fa-book-reader text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Live Classes</h4>
-                            <p class="m-0">We make learning engaging, interactive, and impactful. Our live sessions
-                                allow you to connect directly with instructors, ask questions, and receive immediate
-                                feedback. This approach builds confidence and replicates the dynamics of working with
-                                professional teams, while giving you the flexibility to balance your learning with your
-                                personal schedule.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/learn.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
+    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+        <div class="bg-secondary text-center p-4 stats-card">
+            <h1 class="text-white" data-toggle="counter-up">10</h1>
+            <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
         </div>
     </div>
-    <!-- Feature end-->
-
-
-    <!-- Courses Start -->
+    <div class="col-12 col-md-3 px-0">
+        <div class="bg-warning text-center p-4 stats-card">
+            <h1 class="text-white" data-toggle="counter-up">5234</h1>
+            <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+        </div>
+    </div>
+</div>
+ <!-- Courses Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row mx-0 justify-content-center">
@@ -385,8 +311,7 @@
         </div>
     </div>
     <!-- Courses End -->
-
-    <!-- Team Start -->
+  <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
@@ -538,6 +463,137 @@
         </div>
     </div>
     <!-- Testimonial End -->
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/pexels-mikael-blomkvist-6476808.jpg"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
+                        <h1 class="display-4">SkillBooster</h1>
+                    </div>
+                    <p>We are more than an academy — we are a bridge between learning and opportunity. We are committed
+                        to equipping learners with the knowledge and confidence to thrive in the digital era. Our
+                        mission is to shape raw talent into global professionals ready to take on tomorrow’s challenges.
+                        Think of us as a workshop where ideas are forged into skills and ambitions are shaped into
+                        careers. With expert guidance, international recognition, and hands-on training, we turn
+                        ambition into achievement. Wherever your journey begins, it can lead to success with us.
+                    </p>
+                    <div class="row pt-3 mx-0">
+                        <!-- Available Subjects -->
+                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+                            <div class="bg-success text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">2000</h1>
+                                <h6 class="text-uppercase text-white">JOb<span class="d-block">Placement</span>
+                                </h6>
+                            </div>
+                        </div> 
+                        <!-- Online Courses -->
+                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+                            <div class="bg-primary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">10</h1>
+                                <h6 class="text-uppercase text-white">Our<span class="d-block">Courses</span></h6>
+                            </div>
+                        </div>
+                        <!-- Skilled Instructors -->
+                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+                            <div class="bg-secondary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">10</h1>
+                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <!-- Happy Students -->
+                        <div class="col-12 col-md-3 px-0">
+                            <div class="bg-warning text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">5234</h1>
+                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-image" style="margin: 90px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?
+                        </h6>
+                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
+                    </div>
+                    <p class="mb-4 pb-2">
+                        Your professional journey deserves the right foundation, and that begins with the right training
+                        environment. With us, you gain practical knowledge, guided learning, and the confidence to apply
+                        your skills in real scenarios. Our programs are carefully designed to prepare you for
+                        opportunities that reach far beyond local boundaries, ensuring you can grow and compete on a
+                        global stage.
+                    </p>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Skilled Instructors</h4>
+                            <p>We believe real growth comes from real expertise. Our trainers are seasoned professionals
+                                with international experience, bringing insights that blend both knowledge and practice.
+                                Their mentorship goes beyond classrooms — they share strategies, guidance, and
+                                real-world approaches that help you develop abilities employers truly value.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-secondary mr-4">
+                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>International Certificate</h4>
+                            <p>When you complete your training, you will receive a globally trusted certificate that
+                                strengthens your profile. It serves as recognition of your dedication and competence,
+                                giving you credibility wherever your career takes you. More than just a document, it is
+                                a mark of trust and opportunity in international markets.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="btn-icon bg-warning mr-4">
+                            <i class="fa fa-2x fa-book-reader text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Live Classes</h4>
+                            <p class="m-0">We make learning engaging, interactive, and impactful. Our live sessions
+                                allow you to connect directly with instructors, ask questions, and receive immediate
+                                feedback. This approach builds confidence and replicates the dynamics of working with
+                                professional teams, while giving you the flexibility to balance your learning with your
+                                personal schedule.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/learn.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature end-->
+
+
+   
+  
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
@@ -665,7 +721,7 @@
                     <p><i class="fa fa-phone-alt mr-2"></i>+88 01930161468</p>
                     <p><i class="fa fa-envelope mr-2"></i>contactus@skillbooster.io</p>
                     <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="#"><<i class="fa-brands fa-x-twitter"></i></a>
                         <a class="text-white mr-4" href="https://www.facebook.com/share/173dmduKpA/"><i
                                 class="fab fa-2x fa-facebook-f"></i></a>
                         <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
