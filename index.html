@@ -19,7 +19,7 @@
         rel="stylesheet">
 
     <!-- Font Awesome -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -46,7 +46,7 @@
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a class="text-white px-2" href="">
-                       <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     <a class="text-white px-2" href="">
                         <i class="fab fa-linkedin-in"></i>
@@ -68,7 +68,7 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-">
-                <img src="img/4444.png">
+                <img class="logo" src="img/skillbooster_logo-web.png">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -122,61 +122,68 @@
         </div>
     </div>
     <!-- Header End -->
- <style>
-/* Hover shadow and scale effect */
-.stats-card {
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer; 
-    /* transition: 0.5s ease;
+    <style>
+        /* Hover shadow and scale effect */
+        .stats-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            /* transition: 0.5s ease;
     cursor: pointer; */
-   margin: 20px;
-   border-radius: 20px;
-}
+            margin: 20px;
+            border-radius: 20px;
+        }
 
-.stats-card:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
-    /* transform: scale(1.1); */
-}
+        .stats-card:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            /* transform: scale(1.1); */
+        }
 
-/* Counter animation (optional) */
-@keyframes counterUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+        /* Counter animation (optional) */
+        @keyframes counterUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
 
-.stats-card h1 {
-    animation: counterUp 1s ease forwards;
-}
-</style>
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-<div class="row pt-3 mx-0">
-    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+        .stats-card h1 {
+            animation: counterUp 1s ease forwards;
+        }
+    </style>
+
+    <div class="row pt-3 mx-0">
+        <!-- <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
         <div class="bg-success text-center p-4 stats-card">
             <h1 class="text-white" data-toggle="counter-up">2000</h1>
             <h6 class="text-uppercase text-white">JOb<span class="d-block">Placement</span></h6>
         </div>
-    </div> 
-    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
-        <div class="bg-primary text-center p-4 stats-card">
-            <h1 class="text-white" data-toggle="counter-up">10</h1>
-            <h6 class="text-uppercase text-white">Our<span class="d-block">Courses</span></h6>
+    </div>  -->
+        <div class="col-12 col-md-4 px-0 mb-3 mb-md-0">
+            <div class="bg-primary text-center p-4 stats-card">
+                <h1 class="text-white" data-toggle="counter-up">10</h1>
+                <h6 class="text-uppercase text-white">Our<span class="d-block">Courses</span></h6>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 px-0 mb-3 mb-md-0">
+            <div class="bg-secondary text-center p-4 stats-card">
+                <h1 class="text-white" data-toggle="counter-up">10</h1>
+                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 px-0">
+            <div class="bg-warning text-center p-4 stats-card">
+                <h1 class="text-white" data-toggle="counter-up">2234</h1>
+                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+            </div>
         </div>
     </div>
-    <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
-        <div class="bg-secondary text-center p-4 stats-card">
-            <h1 class="text-white" data-toggle="counter-up">10</h1>
-            <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
-        </div>
-    </div>
-    <div class="col-12 col-md-3 px-0">
-        <div class="bg-warning text-center p-4 stats-card">
-            <h1 class="text-white" data-toggle="counter-up">5234</h1>
-            <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
-        </div>
-    </div>
-</div>
- <!-- Courses Start -->
+    <!-- Courses Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row mx-0 justify-content-center">
@@ -311,7 +318,7 @@
         </div>
     </div>
     <!-- Courses End -->
-  <!-- Team Start -->
+    <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
@@ -457,6 +464,79 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Testimonial 3 -->
+                        <div class="bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p>
+                                "Before joining SkillBooster, I had no idea how SEO or social media campaigns actually
+                                worked. The classes were simple, clear, and packed with real projects. Now I can
+                                confidently run ad campaigns and analyze results. The internship gave me hands-on
+                                experience, and today I’m working in a marketing role I only dreamed about before." –
+                                name of the students
+                            </p>
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/review1.jpeg" alt="">
+                                <div>
+                                    <h5>Shabnur akter</h5>
+                                    <span>Digital Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 4 -->
+                        <div class="bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p>Student Review –
+
+                                "I always wanted to build websites but coding seemed too hard to learn. At SkillBooster,
+                                the step-by-step lessons made HTML, CSS, and JavaScript so easy to understand. The live
+                                projects gave me confidence to create responsive sites, and the internship prepared me
+                                for real teamwork. I’m now a Junior Front-End Developer at an IT firm." – name of the
+                                student
+                            </p>
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/review3.jpeg" alt="">
+                                <div>
+                                    <h5>Sadiya Islam Piyali</h5>
+                                    <span>Front-End Development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 5 -->
+                        <div class="bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p>
+                                "The UI/UX course completely changed how I see design. Instead of just making things
+                                ‘look good,’ I learned how to create experiences that users love. Working on real
+                                prototypes with Figma and getting mentor feedback built my portfolio. Thanks to
+                                SkillBooster, I landed my first design internship and feel ready for bigger
+                                opportunities." – name of the student
+                            </p>
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/review4.jpeg" alt="">
+                                <div>
+                                    <h5>Jannatul Mowa Ainun</h5>
+                                    <span> UI/UX Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 5 -->
+                        <div class="bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p>
+                                "I’ve always loved writing, but I never thought it could be a career. The content
+                                creation course at SkillBooster taught me how to write blogs, create social media posts,
+                                and even work with video content. The practical assignments improved my creativity, and
+                                the internship gave me exposure to client projects. Now I’m working as a content creator
+                                for a digital agency." – name of the student
+                            </p>
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/review2.jpeg" alt="">
+                                <div>
+                                    <h5>Jannatul Ferdous Nira</h5>
+                                    <span> Content Creation</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -478,22 +558,29 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
                         <h1 class="display-4">SkillBooster</h1>
                     </div>
-                    <p>We are more than an academy — we are a bridge between learning and opportunity. We are committed
-                        to equipping learners with the knowledge and confidence to thrive in the digital era. Our
-                        mission is to shape raw talent into global professionals ready to take on tomorrow’s challenges.
-                        Think of us as a workshop where ideas are forged into skills and ambitions are shaped into
-                        careers. With expert guidance, international recognition, and hands-on training, we turn
-                        ambition into achievement. Wherever your journey begins, it can lead to success with us.
+                    <p>At SkillBooster, we go beyond traditional learning — we are the bridge that connects education
+                        with real-world opportunity. Our focus is on preparing learners not just with knowledge, but
+                        with the skills, confidence, and global mindset needed to excel in the digital age.
+
+                        Our mission is simple yet powerful: to transform potential into professionalism. We nurture raw
+                        talent and shape it into industry-ready expertise through a blend of expert mentorship, hands-on
+                        projects, and internationally recognized training.
+
+                        We see SkillBooster as more than an academy — it’s a launchpad where ideas are forged into
+                        skills, and ambitions are transformed into careers. With us, every learner’s journey is guided
+                        by innovation, practical experience, and a clear path to success.
+
+                        At SkillBooster, ambition meets opportunity — and opportunity becomes achievement.
                     </p>
                     <div class="row pt-3 mx-0">
                         <!-- Available Subjects -->
-                        <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
+                        <!-- <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
                             <div class="bg-success text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2000</h1>
                                 <h6 class="text-uppercase text-white">JOb<span class="d-block">Placement</span>
                                 </h6>
                             </div>
-                        </div> 
+                        </div>  -->
                         <!-- Online Courses -->
                         <div class="col-12 col-md-3 px-0 mb-3 mb-md-0">
                             <div class="bg-primary text-center p-4">
@@ -512,7 +599,7 @@
                         <!-- Happy Students -->
                         <div class="col-12 col-md-3 px-0">
                             <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">5234</h1>
+                                <h1 class="text-white" data-toggle="counter-up">2234</h1>
                                 <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
                             </div>
                         </div>
@@ -592,8 +679,8 @@
     <!-- Feature end-->
 
 
-   
-  
+
+
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
@@ -721,7 +808,7 @@
                     <p><i class="fa fa-phone-alt mr-2"></i>+88 01930161468</p>
                     <p><i class="fa fa-envelope mr-2"></i>contactus@skillbooster.io</p>
                     <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><<i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fa-brands fa-x-twitter"></i></a>
                         <a class="text-white mr-4" href="https://www.facebook.com/share/173dmduKpA/"><i
                                 class="fab fa-2x fa-facebook-f"></i></a>
                         <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
