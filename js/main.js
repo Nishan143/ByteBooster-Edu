@@ -140,7 +140,7 @@
 window.onload = function () {
   setTimeout(() => {
     document.getElementById('popupAd').style.display = 'flex';
-  }, 2500);
+  }, 1000);
 };
 
 // Close popup

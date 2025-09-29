@@ -10038,7 +10038,7 @@ font-size:13px;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.1s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -10065,7 +10065,7 @@ font-size:13px;
 /* Close button (X) */
 .close-btn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 12px;
   font-size: 24px;
   border: none;
@@ -10075,6 +10075,7 @@ font-size:13px;
   width: 32px;
   height: 32px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 /* Ad image */
@@ -10112,14 +10113,17 @@ font-size:13px;
   color: white;
   padding: 12px 18px;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.3s ease;
   z-index: 1000;
-}
 
+}
+.whatsapp-button img{
+  margin-left: 10px;
+}
 .whatsapp-button:hover {
   background-color: #1ebe5b;
   transform: scale(1.05);
