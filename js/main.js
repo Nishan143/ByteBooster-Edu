@@ -135,3 +135,15 @@
     
 })(jQuery);
 
+
+// Show popup after 2.5 seconds
+window.onload = function () {
+  setTimeout(() => {
+    document.getElementById('popupAd').style.display = 'flex';
+  }, 2500);
+};
+
+// Close popup
+document.getElementById('closePopup').addEventListener('click', function () {
+  document.getElementById('popupAd').style.display = 'none';
+});
