@@ -1,0 +1,14 @@
+Midterm Lab Exam on the Following Topics:
+
+1. Using Porteous check I/O operations of all logic gates
+ in a single window (AND, OR, NOT, NAND, NOR, EXOR, EXNOR)
+2.Implement EXOR gate and EXNOR gate using only basic gates
+3. Prove the Universality of NAND gate and NOR gate
+4. Construct Half Adder and show its I/O operations
+5. Construct Full Adder and show its I/O operations
+6. Implement Half Subtractor and and show its I/O operations
+7. Implement Full Subtractor and and show its I/O operations
+8. Construct 4 to 2 Encoder and show its I/O operations
+9. Construct 8 to 3 Encoder and show its I/O operations
+10. Implement 2 to 4 Decoder and show its I/O operations
+11. Implement 3 to 8 Decoder and show its I/O operations

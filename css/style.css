@@ -7825,8 +7825,12 @@ button.bg-dark:focus {
 .pr-3,
 .px-3 {
   padding-right: 1rem !important;
+  
 }
-
+.px-9{
+   padding-right: 1rem !important;
+  padding-bottom: 70px;
+}
 .pb-3,
 .py-3 {
   padding-bottom: 1rem !important;
@@ -10012,7 +10016,7 @@ font-size:13px;
 }
 .logo{
   width: 170px;
-  height:90px; 
+  height:100px; 
 }
 .moto{
   color:#fff;
@@ -10108,7 +10112,7 @@ font-size:13px;
 .whatsapp-button {
   position: fixed;
   bottom: 25px;
-  right: 25px;
+  left: 25px;
   background-color: #25d366;
   color: white;
   padding: 12px 18px;
@@ -10128,3 +10132,86 @@ font-size:13px;
   background-color: #1ebe5b;
   transform: scale(1.05);
 }
+/* -======================== */
+/* =====new part css ========== */
+ /* Page fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .course-container {
+            /* margin-top: 0px; */
+            animation: fadeIn 1s ease-in-out;
+        }
+.text-live{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+        /* Card hover animation */
+        .course-card {
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .course-icon {
+            font-size: 50px;
+            color: #007bff;
+        }
+
+        .course-title {
+            margin-top: 15px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .course-description {
+            color: #555;
+        }
+
+        /* Add animation delay for each card */
+        .col-md-4:nth-child(1) .course-card {
+            animation-delay: 0.1s;
+        }
+
+        .col-md-4:nth-child(2) .course-card {
+            animation-delay: 0.2s;
+        }
+
+        .col-md-4:nth-child(3) .course-card {
+            animation-delay: 0.3s;
+        }
+
+        .col-md-4:nth-child(4) .course-card {
+            animation-delay: 0.4s;
+        }
+
+        .col-md-4:nth-child(5) .course-card {
+            animation-delay: 0.5s;
+        }
+
+        .col-md-4:nth-child(6) .course-card {
+            animation-delay: 0.6s;
+        }
+
+        @media (max-width: 768px) {
+            .course-card {
+                margin-bottom: 20px;
+            }
+        }
