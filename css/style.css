@@ -463,7 +463,12 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2;
 }
-
+.studentssay{
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+}
 @media (max-width: 1200px) {
   .display-4 {
     font-size: calc(1.475rem + 2.7vw) ;
@@ -10263,8 +10268,7 @@ font-size:13px;
 
 @media (max-width: 767px) {
   .card-img-top {
-    width:400px;
-    height:250px; /* Reduce image height for smaller screens */
+    height:200px; /* Reduce image height for smaller screens */
   }
 
   .card-title {
@@ -10288,7 +10292,7 @@ body, html {
 } */
 
 .background-section {
-  background-image: url('../img/web-banner-2-demo.jpg'); /* Use the correct image URL */
+  background-image: url('../img/web-banner-5.jpg'); /* Use the correct image URL */
   background-size: cover;
   background-position: center;
  width: 100%;
@@ -10322,8 +10326,9 @@ body, html {
   background-color: #fff;
   padding: 10px;
   border-radius: 10px;
-  width: 400px; /* Adjust width for form */
+  width: 350px; /* Adjust width for form */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .form-group label {
@@ -10339,38 +10344,31 @@ button {
   font-size: 1.1rem;
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .form-container {
-    padding: 20px;
-    width: 250px; /* Adjust width for smaller screens */
-  }
-
-  .form-group input, .form-group select {
-    font-size: 0.9rem;
-  }
-}
-
  /* Responsive Adjustments */
   @media (max-width: 767.98px) {
-    .background-section {
+    /* .background-section {
       flex-direction: column;
     }
 
     .banner-area {
       min-height: 40vh;
       order: 1;
-    }
+    } */
 
     .form-container {
       order: 2;
       margin-top: 20px;
         bottom: 10px; 
     padding: 15px;
-    max-width: 90%;
+    width: 90%;
     border-radius: 5px;
+    align-items: center;
     }
+  }
+  .page{
+    text-align: center;
+    color: #03B4A5;
+    margin-left:970px;
+    margin-top: 100px;
+    font-size: 60px;
   }
