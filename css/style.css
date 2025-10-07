@@ -7740,7 +7740,9 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem !important;
 }
-
+.mail a{
+  color: #ffff;
+}
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -9825,7 +9827,7 @@ h6,
   }
 }
 
-.jumbotron {
+/* .jumbotron {
     background: linear-gradient(#03b4, rgba(0, 0, 0, 0)), url(../img/security.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -9833,7 +9835,7 @@ h6,
 .jumbotron.page-header {
   background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)), url(../img/security.jpg), no-repeat center center; 
   background-size: cover;
-}
+} */
 
 .overlay-top::before,
 .overlay-bottom::after {
@@ -10346,14 +10348,15 @@ button {
 
  /* Responsive Adjustments */
   @media (max-width: 767.98px) {
-    /* .background-section {
+    .background-section {
       flex-direction: column;
+     
     }
 
     .banner-area {
       min-height: 40vh;
       order: 1;
-    } */
+    }
 
     .form-container {
       order: 2;
@@ -10372,3 +10375,5 @@ button {
     margin-top: 100px;
     font-size: 60px;
   }
+
+  
