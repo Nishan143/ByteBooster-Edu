@@ -10340,7 +10340,7 @@ button {
   .background-section {
     flex-direction: column;
     height: auto;
-    padding: 40px 0;
+    padding: 0px 0px;
   }
 
   .form-container {
